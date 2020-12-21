@@ -1,0 +1,10 @@
+22-12-2020   04:06:20		Validation of columns length started!!!
+22-12-2020   04:06:20		OS Error :: <class 'OSError'>
+22-12-2020   04:12:26		Validation of columns length started!!!
+22-12-2020   04:12:26		OS Error :: <class 'OSError'>
+22-12-2020   04:14:40		Validation of columns length started!!!
+22-12-2020   04:14:40		OS Error :: <class 'OSError'>
+22-12-2020   04:19:57		Validation of columns length started!!!
+22-12-2020   04:19:57		Invalid Column Length!!! Files moved to Bad_Raw folder :: wafer_16012020_134553.csv
+22-12-2020   04:19:57		Invalid Column Length!!! Files moved to Bad_Raw folder :: wafer_17012020_125434.csv
+22-12-2020   04:19:58		Column length Validation Completed!!!

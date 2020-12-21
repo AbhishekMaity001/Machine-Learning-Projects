@@ -25,13 +25,14 @@ def trainRouteClient():
 
     try :
         if(request.json['folderPath'] is not None):
-            print('path not none')
+            print('path is not None')
 
             path = request.json['folderPath'] # setting the path variable that we are receiving through the POST request
-            print('path set')
+            print('path variable set')
             train_valObj = train_validation(path) # initializing the object
-            print('obj init done')
+            print('train_validation obj init done now calling the method ...')
             train_valObj.train_validation() # calling the method
+            print('back to home ')
 
     except ValueError :
         return Response('Error Occurred!!!  %s' % ValueError)
@@ -42,7 +43,7 @@ def trainRouteClient():
     except Exception as e :
         return Response('Error Occurred!!!  %s' % e)
 
-    return " Training Successfully Completed :) !!!"
+    return Response( " Training Successfully Completed :) !!!")
 
 
 

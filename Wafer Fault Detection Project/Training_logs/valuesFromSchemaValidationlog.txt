@@ -1,0 +1,8 @@
+22-12-2020   04:06:20		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
+
+22-12-2020   04:12:26		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
+
+22-12-2020   04:14:40		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
+
+22-12-2020   04:19:57		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
+
