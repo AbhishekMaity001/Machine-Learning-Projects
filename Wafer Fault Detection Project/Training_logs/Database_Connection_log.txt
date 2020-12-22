@@ -1,0 +1,5 @@
+22-12-2020   23:12:25		Database connected sucessfully!!---> Training
+22-12-2020   23:13:31		Database closed successfully!!!----> Training
+22-12-2020   23:18:51		Database connected sucessfully!!---> Training
+22-12-2020   23:18:51		Database closed successfully!!!----> Training
+22-12-2020   23:18:51		Database connected sucessfully!!---> Training

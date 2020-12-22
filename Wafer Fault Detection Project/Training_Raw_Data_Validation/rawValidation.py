@@ -1,5 +1,5 @@
 from application_logging.logger import App_logger
-
+from datetime import datetime
 import json
 import os
 from os import listdir
@@ -146,11 +146,37 @@ class Raw_Data_Validation:
     def validateMissingValuesInWholeColumn(self):
 
         try :
-            file = open('Training_logs/MissingValuesInColumn','a+')
-            self.log_writer.log(file,'Missing values in column started !!')
-            for filename in listdir('Training_Raw_Files_Validated/Good_Raw/'):
+            print('Entered the validate missing values in WHOLE column method')
+            file = open('Training_logs/MissingValuesInColumn.txt','a+')
+            self.log_writer.log(file,'Missing values in whole column started !!')
+            for filename in listdir('Training_Raw_Files_Validated/Good_Raw'):
                 csv = pd.read_csv('Training_Raw_Files_Validated/Good_Raw/'+filename)
-                #csv.columns
+                count = 0
+                for columns in csv:
+                    if (len(csv[columns])-csv[columns].count()) == len(csv[columns]) :
+                        count+=1
+                        shutil.move('Training_Raw_Files_Validated/Good_Raw/'+filename,'Training_Raw_Files_Validated/Bad_Raw')
+                        self.log_writer.log(file,"Column was having all missing values!!! Files moved to Bad Raw Folder :: %s"%filename)
+                        break
+                if count==0:
+                    csv.rename(columns={'Unnamed: 0':'Wafer'},inplace=True)
+                    csv.to_csv('Training_Raw_Files_Validated/Good_Raw/'+filename,index=None,header=True)
+            print('Exited the try of validate missing values in whole column method')
+
+        except OSError:
+            print('OS error')
+            file = open('Training_logs/MissingValuesInColumn.txt','a+')
+            self.log_writer.log(file,'Error occurred while validating the column missing values and moving the files OS Error :: %s'% OSError)
+            file.close()
+            raise OSError
+        except Exception as e:
+            print('Exception as e')
+            file = open('Training_logs/MissingValuesInColumn.txt', 'a+')
+            self.log_writer.log(file,'Error occurred while validating the column missing values and moving the files  Exception e:: %s'%e)
+            raise e
+
+        file.close()
+        print('Exited the validate missing values in whole column method')
 
     def deleteExistingGoodDataFolder(self):
 
@@ -159,6 +185,7 @@ class Raw_Data_Validation:
         """
 
         try:
+            print('entered deleted good raw data folder')
             path = 'Training_Raw_Files_Validated/'
             if os.path.isdir(path+'Good_Raw/'):
                 shutil.rmtree(path+'Good_Raw/')
@@ -180,6 +207,7 @@ class Raw_Data_Validation:
         """
 
         try:
+            print('entered deleted bad raw data folder')
             path = 'Training_Raw_Files_Validated/'
             if os.path.isdir(path+'Bad_Raw/'):
                 shutil.rmtree(path+'Bad_Raw/')

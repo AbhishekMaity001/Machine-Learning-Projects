@@ -1,4 +1,32 @@
-22-12-2020   04:06:20		Validation on files started!! 
-22-12-2020   04:12:26		Validation on files started!! 
-22-12-2020   04:14:40		Validation on files started!! 
-22-12-2020   04:19:57		Validation on files started!! 
+22-12-2020   19:29:29		Validation on files started!! 
+22-12-2020   19:41:11		Validation on files started!! 
+22-12-2020   19:42:48		Validation on files started!! 
+22-12-2020   19:42:50		Validation on files completed!!
+22-12-2020   19:42:50		Starting Data Transformation process!!
+22-12-2020   19:44:27		Validation on files started!! 
+22-12-2020   19:44:29		Validation on files completed!!
+22-12-2020   19:44:29		Starting Data Transformation process!!
+22-12-2020   19:49:30		Validation on files started!! 
+22-12-2020   19:49:32		Validation on files completed!!
+22-12-2020   19:49:32		Starting Data Transformation process!!
+22-12-2020   19:57:33		Validation on files started!! 
+22-12-2020   19:57:35		Validation on files completed!!
+22-12-2020   19:57:35		Starting Data Transformation process!!
+22-12-2020   19:58:35		Validation on files started!! 
+22-12-2020   19:58:38		Validation on files completed!!
+22-12-2020   19:58:38		Starting Data Transformation process!!
+22-12-2020   20:29:40		Validation on files started!! 
+22-12-2020   20:29:42		Validation on files completed!!
+22-12-2020   20:29:42		Starting Data Transformation process!!
+22-12-2020   23:12:08		Validation on files started!! 
+22-12-2020   23:12:15		Validation on files completed!!
+22-12-2020   23:12:15		Starting Data Transformation process!!
+22-12-2020   23:12:25		Data Transformation Completed Sucessfully!!
+22-12-2020   23:12:25		Now Creating Training Database and Tables based on the given Schema.json data
+22-12-2020   23:18:34		Validation on files started!! 
+22-12-2020   23:18:39		Validation on files completed!!
+22-12-2020   23:18:39		Starting Data Transformation process!!
+22-12-2020   23:18:51		Data Transformation Completed Sucessfully!!
+22-12-2020   23:18:51		Now Creating Training Database and Tables based on the given Schema.json data
+22-12-2020   23:18:51		Tables Created Successfully!!!
+22-12-2020   23:18:51		Inserting Data into Tables started!!!
