@@ -1,0 +1,54 @@
+23-12-2020   12:59:29		Entered the get_data method of Data_Getter class 
+23-12-2020   12:59:29		Data Loaded successfully!!!
+23-12-2020   12:59:29		Entered the remove column method of the Preprocessor class---->
+23-12-2020   12:59:29		Sucessfully removed the columns and returned the useful_data
+23-12-2020   12:59:29		Entered the separate_label_feature method of preprocessor class
+23-12-2020   12:59:29		Exit the separate_label_feature method of preprocessor class
+23-12-2020   12:59:29		Entered the is_null_present method of preprocessor class
+23-12-2020   12:59:29		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+23-12-2020   12:59:38		Entered the imputer method of KNN
+23-12-2020   12:59:54		Successfully imputed the NaN values now exiting the method!!
+23-12-2020   12:59:29		Start of the Training !!!!!
+23-12-2020   13:04:06		Entered the get_data method of Data_Getter class 
+23-12-2020   13:04:07		Data Loaded successfully!!!
+23-12-2020   13:04:07		Entered the remove column method of the Preprocessor class---->
+23-12-2020   13:04:07		Sucessfully removed the columns and returned the useful_data
+23-12-2020   13:04:07		Entered the separate_label_feature method of preprocessor class
+23-12-2020   13:04:07		Exit the separate_label_feature method of preprocessor class
+23-12-2020   13:04:07		Entered the is_null_present method of preprocessor class
+23-12-2020   13:04:07		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+23-12-2020   13:04:07		Entered the imputer method of KNN
+23-12-2020   13:04:24		Successfully imputed the NaN values now exiting the method!!
+23-12-2020   13:04:29		Entered the get_columns_with_zero_std_dev method !!!
+23-12-2020   13:04:36		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
+23-12-2020   13:04:06		Start of the Training !!!!!
+23-12-2020   13:07:27		Entered the get_data method of Data_Getter class 
+23-12-2020   13:07:27		Data Loaded successfully!!!
+23-12-2020   13:07:27		Entered the remove column method of the Preprocessor class---->
+23-12-2020   13:07:27		Sucessfully removed the columns and returned the useful_data
+23-12-2020   13:07:27		Entered the separate_label_feature method of preprocessor class
+23-12-2020   13:07:27		Exit the separate_label_feature method of preprocessor class
+23-12-2020   13:07:27		Entered the is_null_present method of preprocessor class
+23-12-2020   13:07:27		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+23-12-2020   13:07:27		Entered the imputer method of KNN
+23-12-2020   13:07:47		Successfully imputed the NaN values now exiting the method!!
+23-12-2020   13:07:47		Entered the get_columns_with_zero_std_dev method !!!
+23-12-2020   13:07:49		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
+23-12-2020   13:07:49		Entered the remove column method of the Preprocessor class---->
+23-12-2020   13:07:49		Sucessfully removed the columns and returned the useful_data
+23-12-2020   13:07:27		Start of the Training !!!!!
+23-12-2020   13:09:03		Entered the get_data method of Data_Getter class 
+23-12-2020   13:09:03		Data Loaded successfully!!!
+23-12-2020   13:09:03		Entered the remove column method of the Preprocessor class---->
+23-12-2020   13:09:03		Sucessfully removed the columns and returned the useful_data
+23-12-2020   13:09:03		Entered the separate_label_feature method of preprocessor class
+23-12-2020   13:09:03		Exit the separate_label_feature method of preprocessor class
+23-12-2020   13:09:03		Entered the is_null_present method of preprocessor class
+23-12-2020   13:09:03		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+23-12-2020   13:09:03		Entered the imputer method of KNN
+23-12-2020   13:09:23		Successfully imputed the NaN values now exiting the method!!
+23-12-2020   13:09:23		Entered the get_columns_with_zero_std_dev method !!!
+23-12-2020   13:09:25		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
+23-12-2020   13:09:25		Entered the remove column method of the Preprocessor class---->
+23-12-2020   13:09:25		Sucessfully removed the columns and returned the useful_data
+23-12-2020   13:09:03		Start of the Training !!!!!

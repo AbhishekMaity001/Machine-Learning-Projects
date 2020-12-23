@@ -1,20 +1,2 @@
-22-12-2020   19:29:29		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:41:11		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:42:48		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:44:27		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:49:30		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:57:33		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   19:58:35		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   20:29:40		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   23:12:08		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
-22-12-2020   23:18:34		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
+23-12-2020   00:48:22		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
 

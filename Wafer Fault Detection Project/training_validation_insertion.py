@@ -46,24 +46,28 @@ class train_validation :
             print('tables created done')
 
             self.log_writer.log(self.file_object,"Tables Created Successfully!!!")
-            self.log_writer.log(self.file_object, "Inserting Data into Tables started!!!")
+            self.log_writer.log(self.file_object, "Inserting Data into Tables started!!!----->")
 
             self.dbOperation.insertIntoTableGoodData('Training')
             print('insertion done sucessfully!!!')
 
+            self.log_writer.log(self.file_object,"Inserting Data into Tables done Successfully!!! ")
+            self.log_writer.log(self.file_object, "Deleting Good Data Folder---->")
+
+            self.raw_data.deleteExistingGoodDataFolder()
+            self.log_writer.log(self.file_object, "Deleted Good Data folder sucessfully")
+            print('Deleted Good Data folder sucessfully')
+
+            self.log_writer.log(self.file_object,"Moving Bad Data folder to the archive bad data folder and deleting bad data permntly")
+
+            print("Moving Bad Data folder to the archive bad data folder and deleting bad data permntly")
+            self.raw_data.moveBadFilesToArchiveBad()
+            print('moved and deleted successfully')
+            self.log_writer.log(self.file_object, "Moved Bad data to Archived Folder Successfully!!!")
+            self.log_writer.log(self.file_object, "Validation operation completed")
+            self.log_writer.log(self.file_object, "Extracting the data in csv format now")
+
             self.dbOperation.selectDataFromTableIntoCSV('Training')
-
-
-
-
-
-
-
-
-
-
-
-
 
             print('end of train validation method...')
             self.file_object.close()

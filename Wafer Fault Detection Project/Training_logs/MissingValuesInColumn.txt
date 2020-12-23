@@ -1,80 +1,8 @@
-22-12-2020   19:29:30		Missing values in whole column started !!
-22-12-2020   19:29:30		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:29:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:29:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:29:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:29:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:29:32		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:29:32		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:41:12		Missing values in whole column started !!
-22-12-2020   19:41:12		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:41:12		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:41:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:41:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:41:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:41:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:41:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:42:49		Missing values in whole column started !!
-22-12-2020   19:42:49		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:42:49		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:42:49		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:42:49		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:42:50		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:42:50		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:42:50		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:44:28		Missing values in whole column started !!
-22-12-2020   19:44:28		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:44:28		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:44:29		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:44:29		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:44:29		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:44:29		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:44:29		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:49:31		Missing values in whole column started !!
-22-12-2020   19:49:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:49:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:49:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:49:31		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:49:32		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:49:32		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:49:32		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:57:34		Missing values in whole column started !!
-22-12-2020   19:57:34		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:57:34		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:57:35		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:57:35		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:57:35		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:57:35		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:57:35		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   19:58:36		Missing values in whole column started !!
-22-12-2020   19:58:36		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   19:58:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   19:58:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   19:58:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   19:58:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   19:58:38		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   19:58:38		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   20:29:41		Missing values in whole column started !!
-22-12-2020   20:29:41		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   20:29:41		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   20:29:41		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   20:29:41		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   20:29:42		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   20:29:42		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   20:29:42		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   23:12:12		Missing values in whole column started !!
-22-12-2020   23:12:12		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   23:12:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   23:12:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   23:12:13		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   23:12:14		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   23:12:15		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   23:12:15		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
-22-12-2020   23:18:36		Missing values in whole column started !!
-22-12-2020   23:18:36		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-22-12-2020   23:18:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-22-12-2020   23:18:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-22-12-2020   23:18:37		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-22-12-2020   23:18:38		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-22-12-2020   23:18:39		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-22-12-2020   23:18:39		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv
+23-12-2020   00:48:24		Missing values in whole column started !!
+23-12-2020   00:48:24		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
+23-12-2020   00:48:25		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
+23-12-2020   00:48:25		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
+23-12-2020   00:48:26		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
+23-12-2020   00:48:26		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
+23-12-2020   00:48:27		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
+23-12-2020   00:48:27		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv

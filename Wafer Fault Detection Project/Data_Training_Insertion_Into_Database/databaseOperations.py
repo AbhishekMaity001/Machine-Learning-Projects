@@ -121,6 +121,8 @@ class DBOperation():
 
     def selectDataFromTableIntoCSV(self,DatabaseName):
 
+        print('inside the extration csv method')
+
         self.fileFromDB = 'Training_File_From_DB/'
         self.fileName = 'InputFile.csv'
         file = open('Training_logs/ExportToCsv.txt','a+')
