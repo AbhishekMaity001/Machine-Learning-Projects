@@ -4,6 +4,11 @@
 from application_logging.logger import App_logger
 from data_ingestion import data_loader
 from Data_Preprocessing.Preprocessing import Preprocessor
+from Data_Preprocessing.clustering import KMeansClustering
+from best_model_finder.tuner import Model_Finder
+from File_Operations.file_methods import File_Operation
+
+from sklearn.model_selection import train_test_split
 
 class trainModel :
 
@@ -13,7 +18,7 @@ class trainModel :
 
     def trainingModel(self):
 
-        self.log_writer.log(self.file_object,"Start of the Training !!!!!")
+        self.log_writer.log(self.file_object,"Start of the Training Model !!!!!")
         try :
             print('loading the data')
             data_getter = data_loader.Data_Getter() # object init
@@ -40,8 +45,46 @@ class trainModel :
             cols_to_drop = preprocessor.get_columns_with_zero_std_dev(X)
             print("done cols_to_drop")
 
-            X = preprocessor.remove_columns(data, cols_to_drop)
+            X = preprocessor.remove_columns(X, cols_to_drop)
             print('now we will enter clustering approach')
+
+            """"---------Applying the Clustering Approach---------"""
+            kmeans = KMeansClustering()
+            number_of_clusters = kmeans.elbow_plot(X)
+
+            # Dividing the Clusters  after getting the number_of_clusters
+            X = kmeans.create_clusters(X,number_of_clusters)
+
+            # Now joining the Y label back to X data
+            X['Labels'] = Y
+
+            # now fetching the total number of clusters
+            list_of_clusters = X['Cluster'].unique()
+
+            """"<------Now iterating through all the clusters and looking for the best model suited for each of the cluster------>"""
+            print('now entering the for loop of list_of_clusters')
+
+            for i in list_of_clusters:
+                cluster_data = X[X['Cluster']==i] # filtering the data for each cluster
+
+                cluster_features = cluster_data.drop(['Labels','Cluster'],axis=1)
+                cluster_labels = cluster_data['Labels']
+
+                x_train, x_test, y_train, y_test = train_test_split(cluster_features,cluster_labels,test_size=0.33,random_state=97)
+
+                # getting the best model for the current cluster
+                model_finder = Model_Finder() # object init
+                best_model_name , best_model = model_finder.get_best_model(x_train,y_train,x_test,y_test)
+
+                file_op = File_Operation()
+                save_model = file_op.save_model(best_model,best_model_name+str(i))
+
+            self.log_writer.log(self.file_object,"Successful End of Training :)")
+            self.file_object.close()
+
+
+            print('END----------->')
+
 
 
 

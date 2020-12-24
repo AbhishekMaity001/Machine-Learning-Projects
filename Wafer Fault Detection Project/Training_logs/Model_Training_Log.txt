@@ -1,54 +1,48 @@
-23-12-2020   12:59:29		Entered the get_data method of Data_Getter class 
-23-12-2020   12:59:29		Data Loaded successfully!!!
-23-12-2020   12:59:29		Entered the remove column method of the Preprocessor class---->
-23-12-2020   12:59:29		Sucessfully removed the columns and returned the useful_data
-23-12-2020   12:59:29		Entered the separate_label_feature method of preprocessor class
-23-12-2020   12:59:29		Exit the separate_label_feature method of preprocessor class
-23-12-2020   12:59:29		Entered the is_null_present method of preprocessor class
-23-12-2020   12:59:29		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
-23-12-2020   12:59:38		Entered the imputer method of KNN
-23-12-2020   12:59:54		Successfully imputed the NaN values now exiting the method!!
-23-12-2020   12:59:29		Start of the Training !!!!!
-23-12-2020   13:04:06		Entered the get_data method of Data_Getter class 
-23-12-2020   13:04:07		Data Loaded successfully!!!
-23-12-2020   13:04:07		Entered the remove column method of the Preprocessor class---->
-23-12-2020   13:04:07		Sucessfully removed the columns and returned the useful_data
-23-12-2020   13:04:07		Entered the separate_label_feature method of preprocessor class
-23-12-2020   13:04:07		Exit the separate_label_feature method of preprocessor class
-23-12-2020   13:04:07		Entered the is_null_present method of preprocessor class
-23-12-2020   13:04:07		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
-23-12-2020   13:04:07		Entered the imputer method of KNN
-23-12-2020   13:04:24		Successfully imputed the NaN values now exiting the method!!
-23-12-2020   13:04:29		Entered the get_columns_with_zero_std_dev method !!!
-23-12-2020   13:04:36		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
-23-12-2020   13:04:06		Start of the Training !!!!!
-23-12-2020   13:07:27		Entered the get_data method of Data_Getter class 
-23-12-2020   13:07:27		Data Loaded successfully!!!
-23-12-2020   13:07:27		Entered the remove column method of the Preprocessor class---->
-23-12-2020   13:07:27		Sucessfully removed the columns and returned the useful_data
-23-12-2020   13:07:27		Entered the separate_label_feature method of preprocessor class
-23-12-2020   13:07:27		Exit the separate_label_feature method of preprocessor class
-23-12-2020   13:07:27		Entered the is_null_present method of preprocessor class
-23-12-2020   13:07:27		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
-23-12-2020   13:07:27		Entered the imputer method of KNN
-23-12-2020   13:07:47		Successfully imputed the NaN values now exiting the method!!
-23-12-2020   13:07:47		Entered the get_columns_with_zero_std_dev method !!!
-23-12-2020   13:07:49		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
-23-12-2020   13:07:49		Entered the remove column method of the Preprocessor class---->
-23-12-2020   13:07:49		Sucessfully removed the columns and returned the useful_data
-23-12-2020   13:07:27		Start of the Training !!!!!
-23-12-2020   13:09:03		Entered the get_data method of Data_Getter class 
-23-12-2020   13:09:03		Data Loaded successfully!!!
-23-12-2020   13:09:03		Entered the remove column method of the Preprocessor class---->
-23-12-2020   13:09:03		Sucessfully removed the columns and returned the useful_data
-23-12-2020   13:09:03		Entered the separate_label_feature method of preprocessor class
-23-12-2020   13:09:03		Exit the separate_label_feature method of preprocessor class
-23-12-2020   13:09:03		Entered the is_null_present method of preprocessor class
-23-12-2020   13:09:03		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
-23-12-2020   13:09:03		Entered the imputer method of KNN
-23-12-2020   13:09:23		Successfully imputed the NaN values now exiting the method!!
-23-12-2020   13:09:23		Entered the get_columns_with_zero_std_dev method !!!
-23-12-2020   13:09:25		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
-23-12-2020   13:09:25		Entered the remove column method of the Preprocessor class---->
-23-12-2020   13:09:25		Sucessfully removed the columns and returned the useful_data
-23-12-2020   13:09:03		Start of the Training !!!!!
+24-12-2020   11:21:32		Entered the get_data method of Data_Getter class
+24-12-2020   11:21:33		Data Loaded successfully!!!
+24-12-2020   11:21:33		Entered the remove column method of the Preprocessor class---->
+24-12-2020   11:21:33		Sucessfully removed the columns and returned the useful_data
+24-12-2020   11:21:33		Entered the separate_label_feature method of preprocessor class
+24-12-2020   11:21:33		Exit the separate_label_feature method of preprocessor class
+24-12-2020   11:21:33		Entered the is_null_present method of preprocessor class
+24-12-2020   11:21:33		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+24-12-2020   11:21:33		Entered the imputer method of KNN
+24-12-2020   11:21:50		Successfully imputed the NaN values now exiting the method!!
+24-12-2020   11:21:50		Entered the get_columns_with_zero_std_dev method !!!
+24-12-2020   11:21:56		Appended the columns with 0 std dev to col_to_drop Successfully now exit the method!!!
+24-12-2020   11:21:56		Entered the remove column method of the Preprocessor class---->
+24-12-2020   11:21:56		Sucessfully removed the columns and returned the useful_data
+24-12-2020   11:21:56		Entered the elbow_plot method !!! 
+24-12-2020   11:22:07		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+24-12-2020   11:22:59		Entered the save_model method of the File_Operation class now saving the model....
+24-12-2020   11:23:10		Model saved successfully in the models folder name : KMeans
+24-12-2020   11:23:14		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+24-12-2020   11:23:53		Entered the get_best_params_for_XGBoost method!!!
+24-12-2020   11:24:05		The Best params of XG Boost are{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100} Now Exiting the XG Boost method
+24-12-2020   11:24:22		Entered the get_best_params_for_RandomForest method!!!
+24-12-2020   11:24:25		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 20} Now Exiting the Random Forest method
+24-12-2020   11:23:52		Entered the get_best_model method!!!
+24-12-2020   11:24:20		The ROC AUC Score for XG-BOOST is : 1.0 
+24-12-2020   11:24:40		The ROC AUC Score for RANDOM FOREST is : 0.5172413793103449 
+24-12-2020   11:26:25		Entered the save_model method of the File_Operation class now saving the model....
+24-12-2020   11:28:01		Model saved successfully in the models folder name : XGBoost0
+24-12-2020   11:31:04		Entered the get_best_params_for_XGBoost method!!!
+24-12-2020   11:31:10		The Best params of XG Boost are{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100} Now Exiting the XG Boost method
+24-12-2020   11:31:15		Entered the get_best_params_for_RandomForest method!!!
+24-12-2020   11:31:18		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10} Now Exiting the Random Forest method
+24-12-2020   11:31:04		Entered the get_best_model method!!!
+24-12-2020   11:31:15		The ROC AUC Score for XG-BOOST is : 1.0 
+24-12-2020   11:31:21		The ROC AUC Score for RANDOM FOREST is : 0.8125 
+24-12-2020   11:32:13		Entered the save_model method of the File_Operation class now saving the model....
+24-12-2020   11:32:22		Model saved successfully in the models folder name : XGBoost2
+24-12-2020   11:32:25		Entered the get_best_params_for_XGBoost method!!!
+24-12-2020   11:32:31		The Best params of XG Boost are{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100} Now Exiting the XG Boost method
+24-12-2020   11:32:34		Entered the get_best_params_for_RandomForest method!!!
+24-12-2020   11:32:36		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10} Now Exiting the Random Forest method
+24-12-2020   11:32:25		Entered the get_best_model method!!!
+24-12-2020   11:32:33		The ROC AUC Score for XG-BOOST is : 1.0 
+24-12-2020   11:32:38		The ROC AUC Score for RANDOM FOREST is : 0.55 
+24-12-2020   11:32:41		Entered the save_model method of the File_Operation class now saving the model....
+24-12-2020   11:32:47		Model saved successfully in the models folder name : XGBoost1
+24-12-2020   11:21:32		Start of the Training Model !!!!!
+24-12-2020   11:32:49		Successful End of Training :)

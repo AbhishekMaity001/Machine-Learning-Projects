@@ -36,7 +36,7 @@ def trainRouteClient():
             #print('back to home ')
 
             trainModelObj = trainModel() # object initialization
-            print('train model object init done now calling the method')
+            print('TRAIN MODEL object init done now calling the method')
             trainModelObj.trainingModel() # calling the method
             print('back to main.py ')
 
