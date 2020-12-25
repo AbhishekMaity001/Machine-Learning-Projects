@@ -20,6 +20,19 @@ def home():
     print('home')
     return render_template('index.html')
 
+
+@app.route("/",methods=['POST'])
+@cross_origin()
+def predictRouteclient():
+    try:
+        if(request.json['folderPath'] is not None):
+            print('prediction path is not None!!')
+            path = request.json['folderPath']
+
+    except Exception as e :
+        raise e
+
+
 @app.route("/train", methods=['POST'])
 @cross_origin()
 def trainRouteClient():

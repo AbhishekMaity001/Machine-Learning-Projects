@@ -83,16 +83,7 @@ class trainModel :
             self.file_object.close()
 
 
-            print('END----------->')
-
-
-
-
-
-
-
-
-
+            print('<--------------END OF TRAINING----------->')
 
         except Exception as e :
             print('Exception as e')
