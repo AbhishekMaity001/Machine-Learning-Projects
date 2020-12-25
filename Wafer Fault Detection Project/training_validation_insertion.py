@@ -7,7 +7,7 @@ from Data_Training_Insertion_Into_Database.databaseOperations import DBOperation
 class train_validation :
 
     def __init__(self,path):
-        print('inside --init-- of training_validation_insertion')
+        print('inside --init-- of training_validation class')
 
         self.file_object = open("Training_logs/Training_main_log.txt", 'a+')
         self.log_writer = App_logger()
