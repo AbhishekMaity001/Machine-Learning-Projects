@@ -10,6 +10,8 @@ import json
 from training_validation_insertion import train_validation
 from trainingModel import trainModel
 
+from prediction_validation_insertion import pred_validation
+
 app = Flask(__name__)
 dashboard.bind(app)
 CORS(app)
