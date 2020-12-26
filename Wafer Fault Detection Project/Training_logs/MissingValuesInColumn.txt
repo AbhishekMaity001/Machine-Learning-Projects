@@ -1,8 +1,0 @@
-23-12-2020   00:48:24		Missing values in whole column started !!
-23-12-2020   00:48:24		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_07012020_041011.csv
-23-12-2020   00:48:25		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_20012020_090819.csv
-23-12-2020   00:48:25		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_22022020_041119.csv
-23-12-2020   00:48:26		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_23012020_011008.csv
-23-12-2020   00:48:26		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_28012020_051011.csv
-23-12-2020   00:48:27		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_29012020_060756.csv
-23-12-2020   00:48:27		Column was having all missing values!!! Files moved to Bad Raw Folder :: wafer_31012020_090811.csv

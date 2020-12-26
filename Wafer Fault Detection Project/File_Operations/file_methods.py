@@ -60,6 +60,23 @@ class File_Operation :
             raise e
 
 
+    def load_model(self,filename):
+
+        file = open('Prediction_logs/Prediction_main_log.txt','a+')
+        self.log_writer.log(file,"Entered the load_model method of File_Operation class!!!!")
+        try:
+            with open(self.model_directory+filename+'/'+filename+'.sav','rb') as f :
+                self.log_writer.log(file,"Model loaded : %s .sav Successfully."%filename)
+                return pickle.load(f)
+        except Exception as e:
+            self.log_writer.log(file,"Error while loading the file :: %s"%e)
+            file.close()
+            raise e
+
+        file.close()
+        print('Model loaded successfully now exiting the load_model method!!!!')
+
+
 
 
 

@@ -11,6 +11,7 @@ from training_validation_insertion import train_validation
 from trainingModel import trainModel
 
 from prediction_validation_insertion import pred_validation
+from Predict_From_Model import prediction
 
 app = Flask(__name__)
 dashboard.bind(app)
@@ -23,16 +24,56 @@ def home():
     return render_template('index.html')
 
 
-@app.route("/",methods=['POST'])
+@app.route("/predict",methods=['POST'])
 @cross_origin()
-def predictRouteclient():
+def predictRouteClient():
     try:
-        if(request.json['folderPath'] is not None):
+        if (request.json['filepath'] is not None):
             print('prediction path is not None!!')
-            path = request.json['folderPath']
+            path = request.json['filepath']
 
-    except Exception as e :
-        raise e
+            pred_val = pred_validation(path) # object init
+            pred_val.prediction_validation() # calling the function
+
+            pred = prediction(path)
+            path, json_predictions = pred.prediction_From_Model()
+
+
+            print("back to main.py ----> /predict")
+            return Response('Successfully created prediction file at : '+ str(path) +'  and some of the predictions are :: ' +str(json.loads(json_predictions)) )
+
+        elif request.form is not None :
+
+            print('prediction path is not None!!')
+            path = request.form['filepath']
+
+            pred_val = pred_validation(path)  # object init
+            pred_val.prediction_validation()  # calling the function
+
+            pred = prediction(path)
+            path, json_predictions = pred.prediction_From_Model()
+
+            print("back to main.py ----> /predict")
+            return Response('Successfully created prediction file at : ' + str(
+                path) + '  and some of the predictions are :: ' + str(json.loads(json_predictions)))
+
+        else :
+            print('Nothing matched!!!')
+
+
+    except ValueError:
+
+        return Response('Error Occurred!!!  %s' % ValueError)
+
+
+    except KeyError:
+
+        return Response('Error Occurred!!!  %s' % KeyError)
+
+
+    except Exception as e:
+
+        return Response('Error Occurred!!!  %s' % e)
 
 
 @app.route("/train", methods=['POST'])

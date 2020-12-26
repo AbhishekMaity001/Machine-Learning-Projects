@@ -56,7 +56,7 @@ class Prediction_Data_Validation:
 
         except Exception as e:
             file = open('Prediction_logs/valuesFromSchemaPredictionlog.txt', 'a+')
-            self.log_writer(file,str(e))
+            self.log_writer.log(file,"Error while fetching the schema prediction file data :: %s"%str(e))
             file.close()
             raise e
 
@@ -84,7 +84,7 @@ class Prediction_Data_Validation:
         onlyfiles = [f for f in listdir(self.Batch_Directory)]
         try :
             file = open('Prediction_logs/nameValidationLog.txt','a+')
-            print('entered the validation file name method')
+            print('entered the validationFileName method')
             for filename in onlyfiles:
                 if re.match(regex,filename):
                     splitbyDot = re.split('.csv',filename)
@@ -109,14 +109,14 @@ class Prediction_Data_Validation:
 
         except Exception as e :
             file = open('Prediction_logs/nameValidationLog.txt','a+')
-            self.log_writer.log(file,'Error Occurred While validating the File Name :: %s',str(e))
+            self.log_writer.log(file,'Error Occurred While validating the File Name :: %s'%str(e))
             file.close()
             raise e
 
 
     def validateColumnLength(self,NumberofColumns):
         try :
-            print('entered validated column length')
+            print('entered validateColumnLength method')
             file = open('Prediction_logs/columnValidationLog.txt','a+')
             self.log_writer.log(file,'Validation of columns length started!!!')
 
@@ -137,16 +137,16 @@ class Prediction_Data_Validation:
 
         except Exception as e:
             file = open('Prediction_logs/columnValidationLog.txt','a+')
-            self.log_writer.log(file,'Exception error %s' % e)
+            self.log_writer.log(file,'Exception error %s' % str(e))
             file.close()
             raise e
         file.close()
-        print('exited validated column length')
+        print('exited validateColumnLength method')
 
     def validateMissingValuesInWholeColumn(self):
 
         try :
-            print('Entered the validate missing values in WHOLE column method')
+            print('Entered the validateMissingValuesInWholeColumn method')
             file = open('Prediction_logs/MissingValuesInColumn.txt','a+')
             self.log_writer.log(file,'Missing values in whole column started !!')
             for filename in listdir('Prediction_Raw_Files_Validated/Good_Raw'):
@@ -161,7 +161,6 @@ class Prediction_Data_Validation:
                 if count==0:
                     csv.rename(columns={'Unnamed: 0':'Wafer'},inplace=True)
                     csv.to_csv('Prediction_Raw_Files_Validated/Good_Raw/'+filename,index=None,header=True)
-            print('Exited the try of validate missing values in whole column method')
 
         except OSError:
             print('OS error')
@@ -172,7 +171,7 @@ class Prediction_Data_Validation:
         except Exception as e:
             print('Exception as e')
             file = open('Prediction_logs/MissingValuesInColumn.txt', 'a+')
-            self.log_writer.log(file,'Error occurred while validating the column missing values and moving the files  Exception e:: %s'%e)
+            self.log_writer.log(file,'Error occurred while validating the column missing values and moving the files  Exception e:: %s'%str(e))
             raise e
 
         file.close()
@@ -185,7 +184,7 @@ class Prediction_Data_Validation:
         """
 
         try:
-            print('entered deleted good raw data folder')
+            print('entered deleteExistingGoodDataFolder method')
             path = 'Prediction_Raw_Files_Validated/'
             if os.path.isdir(path+'Good_Raw/'):
                 shutil.rmtree(path+'Good_Raw/')
@@ -207,12 +206,12 @@ class Prediction_Data_Validation:
         """
 
         try:
-            print('entered deleted bad raw data folder')
+            print('entered deleteExistingBadDataFolder method')
             path = 'Prediction_Raw_Files_Validated/'
             if os.path.isdir(path+'Bad_Raw/'):
                 shutil.rmtree(path+'Bad_Raw/')
                 file = open('Prediction_logs/General_log.txt','a+')
-                self.log_writer.log(file,'Deleted Bad_Raw Data sucessfully!!')
+                self.log_writer.log(file,'Deleted Bad_Raw Data folder sucessfully!!')
                 file.close()
 
         except OSError as s:
@@ -272,6 +271,11 @@ class Prediction_Data_Validation:
             self.log_writer.log(file, "Error while moving bad files to archive:: %s" % e)
             file.close()
             raise e
+
+    def delete_Prediction_File(self):
+
+        if os.path.exists('Predictions_Output_File/Predictions.csv'):
+            os.remove('Predictions_Output_File/Predictions.csv')
 
 
 

@@ -1,9 +1,0 @@
-23-12-2020   00:48:29		Data Transformation done successfully!! wafer_13012020_090817.csv
-23-12-2020   00:48:30		Data Transformation done successfully!! wafer_16012020_051629.csv
-23-12-2020   00:48:31		Data Transformation done successfully!! wafer_20022020_090716.csv
-23-12-2020   00:48:33		Data Transformation done successfully!! wafer_21012020_080913.csv
-23-12-2020   00:48:35		Data Transformation done successfully!! wafer_23012020_041211.csv
-23-12-2020   00:48:36		Data Transformation done successfully!! wafer_27012020_080911.csv
-23-12-2020   00:48:38		Data Transformation done successfully!! wafer_28012020_090817.csv
-23-12-2020   00:48:40		Data Transformation done successfully!! wafer_28042020_031911.csv
-23-12-2020   00:48:41		Data Transformation done successfully!! wafer_29012020_050617.csv

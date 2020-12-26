@@ -1,2 +1,0 @@
-23-12-2020   00:48:22		LengthOfDateStampInFile---> 8	LengthOfTimeStampInFile---> 6	NumberofColumns---> 592
-
