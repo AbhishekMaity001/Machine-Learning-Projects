@@ -1,0 +1,5 @@
+07-01-2021   00:41:33		Missing values in whole column started !!
+07-01-2021   00:48:28		Missing values in whole column started !!
+07-01-2021   00:55:26		Missing values in whole column started !!
+07-01-2021   00:58:17		Missing values in whole column started !!
+07-01-2021   01:05:06		Missing values in whole column started !!

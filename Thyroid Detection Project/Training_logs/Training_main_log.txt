@@ -1,0 +1,38 @@
+07-01-2021   00:41:03		Validation on files started!! 
+07-01-2021   00:41:44		Validation on files completed!!
+07-01-2021   00:41:51		Starting Data Transformation process!!
+07-01-2021   00:42:01		Data Transformation Completed Sucessfully!!
+07-01-2021   00:42:02		Now Creating Training Database and Tables based on the given Schema.json data
+07-01-2021   00:48:24		Validation on files started!! 
+07-01-2021   00:48:29		Validation on files completed!!
+07-01-2021   00:48:30		Starting Data Transformation process!!
+07-01-2021   00:48:35		Data Transformation Completed Sucessfully!!
+07-01-2021   00:48:37		Now Creating Training Database and Tables based on the given Schema.json data
+07-01-2021   00:55:22		Validation on files started!! 
+07-01-2021   00:55:31		Validation on files completed!!
+07-01-2021   00:55:31		Starting Data Transformation process!!
+07-01-2021   00:55:34		Data Transformation Completed Sucessfully!!
+07-01-2021   00:55:34		Now Creating Training Database and Tables based on the given Schema.json data
+07-01-2021   00:55:44		Tables Created Successfully!!!
+07-01-2021   00:55:48		Inserting Data into Tables started!!!----->
+07-01-2021   00:58:15		Validation on files started!! 
+07-01-2021   00:58:20		Validation on files completed!!
+07-01-2021   00:58:20		Starting Data Transformation process!!
+07-01-2021   00:58:24		Data Transformation Completed Sucessfully!!
+07-01-2021   00:58:24		Now Creating Training Database and Tables based on the given Schema.json data
+07-01-2021   00:58:36		Tables Created Successfully!!!
+07-01-2021   00:58:37		Inserting Data into Tables started!!!----->
+07-01-2021   01:05:02		Validation on files started!! 
+07-01-2021   01:05:07		Validation on files completed!!
+07-01-2021   01:05:08		Starting Data Transformation process!!
+07-01-2021   01:05:58		Data Transformation Completed Sucessfully!!
+07-01-2021   01:05:59		Now Creating Training Database and Tables based on the given Schema.json data
+07-01-2021   01:06:03		Tables Created Successfully!!!
+07-01-2021   01:06:04		Inserting Data into Tables started!!!----->
+07-01-2021   01:15:58		Inserting Data into Tables done Successfully!!! 
+07-01-2021   01:15:59		Deleting Good Data Folder---->
+07-01-2021   01:16:02		Deleted Good Data folder sucessfully
+07-01-2021   01:16:05		Moving Bad Data folder to the archive bad data folder and deleting bad data permntly
+07-01-2021   01:16:11		Moved Bad data to Archived Folder Successfully!!!
+07-01-2021   01:16:13		Validation operation completed
+07-01-2021   01:16:15		Extracting the data in csv format now

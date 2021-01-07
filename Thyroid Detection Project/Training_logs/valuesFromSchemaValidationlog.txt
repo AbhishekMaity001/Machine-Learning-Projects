@@ -1,0 +1,10 @@
+07-01-2021   00:41:09		LengthOfDateStampInFile---> 7	LengthOfTimeStampInFile---> 13	NumberofColumns---> 30
+
+07-01-2021   00:48:24		LengthOfDateStampInFile---> 7	LengthOfTimeStampInFile---> 13	NumberofColumns---> 30
+
+07-01-2021   00:55:22		LengthOfDateStampInFile---> 7	LengthOfTimeStampInFile---> 13	NumberofColumns---> 30
+
+07-01-2021   00:58:15		LengthOfDateStampInFile---> 7	LengthOfTimeStampInFile---> 13	NumberofColumns---> 30
+
+07-01-2021   01:05:02		LengthOfDateStampInFile---> 7	LengthOfTimeStampInFile---> 13	NumberofColumns---> 30
+

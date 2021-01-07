@@ -1,7 +1,9 @@
 import numpy as np
 import pandas as pd
 from sklearn.impute import KNNImputer
+from sklearn.preprocessing import LabelEncoder
 from application_logging.logger import App_logger
+import pickle
 
 
 
@@ -15,8 +17,8 @@ class Preprocessor:
     def remove_columns(self,data,columns):
         try :
             print('inside the remove column method')
-            file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
-            self.log_writer.log(file_object,"Entered the remove column method of the Preprocessor class---->")
+            file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
+            self.log_writer.log(file_object,"Entered the Remove column method of the Preprocessor class---->")
             self.data = data
             self.columns = columns
             self.useful_data = self.data.drop(labels=columns,axis=1)
@@ -27,7 +29,7 @@ class Preprocessor:
 
 
         except Exception as e:
-            file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+            file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
             self.log_writer.log(file_object,"Error while removing the columns --->  :: %s"%e)
             file_object.close()
             raise e
@@ -54,7 +56,7 @@ class Preprocessor:
 
         try :
             print('inside is_null_present')
-            file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+            file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
             self.log_writer.log(file_object, 'Entered the is_null_present method of preprocessor class')
             self.null_present = False
             self.null_counts = data.isnull().sum()
@@ -76,7 +78,7 @@ class Preprocessor:
 
         except Exception as e:
 
-            file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+            file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
 
             self.log_writer.log(file_object,"Error while finding the missing values :: %s"% str(e))
             file_object.close()
@@ -84,7 +86,7 @@ class Preprocessor:
 
     def impute_Missing_Values(self,data):
 
-        file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+        file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
         self.data = data
         self.log_writer.log(file_object,"Entered the imputer method of KNN")
         try :
@@ -97,12 +99,12 @@ class Preprocessor:
             return self.new_data
 
         except Exception as e:
-            file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+            file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
             self.log_writer.log(file_object,"Error while imputing the missing values :: %s"%str(e))
             raise e
 
     def get_columns_with_zero_std_dev(self,data):
-        file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
+        file_object = open('Prediction_logs/Prediction_main_log.txt', 'a+')
         self.log_writer.log(file_object,"Entered the get_columns_with_zero_std_dev method !!!")
         self.data_n = data.describe()
         self.columns = data.columns
@@ -121,8 +123,39 @@ class Preprocessor:
             file_object.close()
             raise e
 
+    def replaceInvalidValuesWithNaN(self,data):
 
+        file = open('Prediction_logs/Model_Training_Log.txt','a+')
+        try :
+            self.log_writer.log(file,"Starting to replace the invalid ? values with np.NaN")
+            for col in data.columns:
+                cnt = data[col][data[col] == '?'].count()
+                if cnt!=0:
+                    data[col] = data[col].replace('?',np.nan)
+            file.close()
+            return data
+        except Exception as e:
+            self.log_writer.log(file,"Error Occurred while replacing the ? to np.NaN :: %s"%str(e))
+            file.close()
+            raise e
 
+    def encodeCategoricaldata(self,data):
+
+        data['sex'] = data['sex'].map({'F':0, 'M':1})
+        cat_data = data.drop(['age','T3','TT4','T4U','FTI','sex'],axis=1) # dropping the values with int and float type
+
+        for column in cat_data.columns :
+            if (data[column].nunique()) == 1:
+                if data[column].unique()[0] == 'f' or data[column].unique()[0] == 'F':  # map the variables same as we did in training i.e. if only 'f' comes map as 0 as done in training
+                    data[column] = data[column].map({data[column].unique()[0]: 0})
+                else:
+                    data[column] = data[column].map({data[column].unique()[0]: 1})
+            elif (data[column].nunique()) == 2:
+                data[column] = data[column].map({'f': 0, 't': 1})
+
+        data = pd.get_dummies(data,columns=['referral_source'])
+
+        return data
 
 
 

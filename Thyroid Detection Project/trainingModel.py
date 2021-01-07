@@ -29,11 +29,14 @@ class trainModel :
 
             print('entering the preprocessing method')
             preprocessor = Preprocessor() # object init
-            data = preprocessor.remove_columns(data,['Wafer']) # removing the first column because that will not contribute to our output
+            data = preprocessor.remove_columns(data,['TSH_measured','T3_measured','TT4_measured','T4U_measured','FTI_measured','TBG_measured','TBG','TSH']) # removing the first column because that will not contribute to our output
             print('the new data is --->',data.columns)
-            #preprocessor.replaceInvalidValuesWithNaN(data)
 
-            X,Y = preprocessor.separate_label_feature(data,'Output')
+            data= preprocessor.replaceInvalidValuesWithNaN(data) # replacing the ? values with NaN
+
+            data = preprocessor.encodeCategoricaldata(data)
+
+            X,Y = preprocessor.separate_label_feature(data,'Class')
             print("got the X and Y features")
 
             null_present = preprocessor.is_null_present(X)
@@ -43,10 +46,12 @@ class trainModel :
                 X = preprocessor.impute_Missing_Values(X)
 
             print('imputed')
-            cols_to_drop = preprocessor.get_columns_with_zero_std_dev(X)
-            print("done cols_to_drop")
+            X,Y = preprocessor.handleImbalanceData(X,Y)
 
-            X = preprocessor.remove_columns(X, cols_to_drop)
+            #cols_to_drop = preprocessor.get_columns_with_zero_std_dev(X)
+            #print("done cols_to_drop")
+
+            # X = preprocessor.remove_columns(X, cols_to_drop)
             print('now we will enter clustering approach')
 
             """"---------Applying the Clustering Approach---------"""
@@ -74,10 +79,10 @@ class trainModel :
                 x_train, x_test, y_train, y_test = train_test_split(cluster_features,cluster_labels,test_size=0.33,random_state=97)
 
                 # getting the best model for the current cluster
-                model_finder = Model_Finder() # object init
+                model_finder = Model_Finder()  # object init
                 best_model_name , best_model = model_finder.get_best_model(x_train,y_train,x_test,y_test)
 
-                file_op = File_Operation()
+                file_op = File_Operation() # object init
                 save_model = file_op.save_model(best_model,best_model_name+str(i))
 
             self.log_writer.log(self.file_object,"Successful End of Training :)")

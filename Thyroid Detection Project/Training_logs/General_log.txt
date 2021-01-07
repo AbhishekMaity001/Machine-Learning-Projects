@@ -1,0 +1,9 @@
+07-01-2021   00:48:25		Deleted Training Good Raw Data sucessfully!!
+07-01-2021   00:48:25		Deleted Training Bad Raw Data sucessfully!!
+07-01-2021   00:55:24		Deleted Training Good Raw Data sucessfully!!
+07-01-2021   00:55:24		Deleted Training Bad Raw Data sucessfully!!
+07-01-2021   00:58:16		Deleted Training Good Raw Data sucessfully!!
+07-01-2021   00:58:16		Deleted Training Bad Raw Data sucessfully!!
+07-01-2021   01:16:01		Deleted Training Good Raw Data sucessfully!!
+07-01-2021   01:16:08		Bad files moved to archive
+07-01-2021   01:16:08		Bad Raw Data Folder Deleted successfully!!

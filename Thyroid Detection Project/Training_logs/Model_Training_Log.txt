@@ -1,0 +1,359 @@
+07-01-2021   03:40:38		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:40:38		Data Loaded successfully!!!
+07-01-2021   03:40:57		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:40:57		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:41:09		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:40:21		Start of the Training Model !!!!!
+07-01-2021   03:42:02		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:42:02		Data Loaded successfully!!!
+07-01-2021   03:42:05		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:42:05		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:42:08		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:41:59		Start of the Training Model !!!!!
+07-01-2021   03:44:26		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:44:26		Data Loaded successfully!!!
+07-01-2021   03:44:27		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:44:27		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:44:30		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:44:23		Start of the Training Model !!!!!
+07-01-2021   03:46:06		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:46:06		Data Loaded successfully!!!
+07-01-2021   03:46:07		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:46:07		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:46:11		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:46:24		Entered the separate_label_feature method of preprocessor class
+07-01-2021   03:46:24		Exit the separate_label_feature method of preprocessor class
+07-01-2021   03:46:26		Entered the is_null_present method of preprocessor class
+07-01-2021   03:46:26		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   03:47:19		Entered the imputer method of KNN
+07-01-2021   03:47:19		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   03:46:04		Start of the Training Model !!!!!
+07-01-2021   03:48:42		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:48:42		Data Loaded successfully!!!
+07-01-2021   03:48:45		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:48:45		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:48:45		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:48:51		Entered the separate_label_feature method of preprocessor class
+07-01-2021   03:48:51		Exit the separate_label_feature method of preprocessor class
+07-01-2021   03:48:52		Entered the is_null_present method of preprocessor class
+07-01-2021   03:48:52		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   03:49:47		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   03:49:05		Entered the imputer method of KNN
+07-01-2021   03:48:39		Start of the Training Model !!!!!
+07-01-2021   03:51:16		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:51:16		Data Loaded successfully!!!
+07-01-2021   03:51:19		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:51:19		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:51:19		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:51:23		Entered the separate_label_feature method of preprocessor class
+07-01-2021   03:51:23		Exit the separate_label_feature method of preprocessor class
+07-01-2021   03:51:24		Entered the is_null_present method of preprocessor class
+07-01-2021   03:51:24		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   03:51:34		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   03:51:27		Entered the imputer method of KNN
+07-01-2021   03:51:14		Start of the Training Model !!!!!
+07-01-2021   03:54:34		Entered the get_data() method of Data_Getter class 
+07-01-2021   03:54:34		Data Loaded successfully!!!
+07-01-2021   03:54:35		Entered the remove column method of the Preprocessor class---->
+07-01-2021   03:54:35		Sucessfully removed the columns and returned the useful_data
+07-01-2021   03:54:35		Starting to replace the invalid ? values with np.NaN
+07-01-2021   03:54:46		Entered the separate_label_feature method of preprocessor class
+07-01-2021   03:54:46		Exit the separate_label_feature method of preprocessor class
+07-01-2021   03:55:28		Entered the is_null_present method of preprocessor class
+07-01-2021   03:55:28		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   03:58:15		Entered the imputer method of KNN
+07-01-2021   03:59:15		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   04:02:06		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:02:06		Data Loaded successfully!!!
+07-01-2021   04:02:10		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:02:10		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:02:11		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:02:12		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:02:12		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:02:59		Entered the is_null_present method of preprocessor class
+07-01-2021   04:02:59		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:08:42		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:08:42		Data Loaded successfully!!!
+07-01-2021   04:08:43		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:08:43		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:08:43		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:08:45		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:08:45		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:09:38		Entered the is_null_present method of preprocessor class
+07-01-2021   04:09:38		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:13:11		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   04:15:05		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:15:05		Data Loaded successfully!!!
+07-01-2021   04:15:05		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:15:05		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:15:06		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:15:06		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:15:06		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:15:07		Entered the is_null_present method of preprocessor class
+07-01-2021   04:15:07		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:26:29		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   04:28:05		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:28:05		Data Loaded successfully!!!
+07-01-2021   04:28:06		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:28:06		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:28:06		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:28:07		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:28:07		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:28:07		Entered the is_null_present method of preprocessor class
+07-01-2021   04:28:07		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:29:50		Error while imputing the missing values :: Shape of passed values is (3772, 24), indices imply (3772, 25)
+07-01-2021   04:28:11		Entered the imputer method of KNN
+07-01-2021   04:28:00		Start of the Training Model !!!!!
+07-01-2021   04:30:04		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:30:04		Data Loaded successfully!!!
+07-01-2021   04:30:04		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:30:04		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:30:05		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:30:05		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:30:05		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:30:05		Entered the is_null_present method of preprocessor class
+07-01-2021   04:30:05		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:41:21		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:41:21		Data Loaded successfully!!!
+07-01-2021   04:44:15		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:44:15		Data Loaded successfully!!!
+07-01-2021   04:44:17		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:44:17		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:44:19		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:44:20		Entered the separate_label_feature method of preprocessor class
+07-01-2021   04:44:20		Exit the separate_label_feature method of preprocessor class
+07-01-2021   04:44:20		Entered the is_null_present method of preprocessor class
+07-01-2021   04:44:20		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   04:47:05		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:47:05		Data Loaded successfully!!!
+07-01-2021   04:47:40		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:47:40		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:48:13		Starting to replace the invalid ? values with np.NaN
+07-01-2021   04:56:43		Entered the get_data() method of Data_Getter class 
+07-01-2021   04:56:43		Data Loaded successfully!!!
+07-01-2021   04:57:05		Entered the remove column method of the Preprocessor class---->
+07-01-2021   04:57:05		Sucessfully removed the columns and returned the useful_data
+07-01-2021   04:57:16		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:02:06		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:02:06		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:02:37		Entered the is_null_present method of preprocessor class
+07-01-2021   05:02:37		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:03:30		Entered the imputer method of KNN
+07-01-2021   05:03:55		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:04:10		Entered the elbow_plot method !!! 
+07-01-2021   05:04:15		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:05:38		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:05:38		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:05:38		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:06:28		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:06:28		Error occured while choosing the best params for KNN classifier :: 'Model_Finder' object has no attribute 'knn'
+07-01-2021   05:06:28		Entered the get_best_model method!!!
+07-01-2021   05:16:14		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:16:14		Data Loaded successfully!!!
+07-01-2021   05:16:16		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:16:16		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:16:18		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:16:35		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:16:35		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:16:35		Entered the is_null_present method of preprocessor class
+07-01-2021   05:16:35		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:16:48		Entered the imputer method of KNN
+07-01-2021   05:16:48		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:16:52		Entered the elbow_plot method !!! 
+07-01-2021   05:16:57		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:16:58		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:16:58		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:16:58		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:17:16		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:17:16		Error occured while choosing the best params for KNN classifier :: 'Model_Finder' object has no attribute 'knn'
+07-01-2021   05:17:16		Entered the get_best_model method!!!
+07-01-2021   05:16:10		Start of the Training Model !!!!!
+07-01-2021   05:20:46		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:20:46		Data Loaded successfully!!!
+07-01-2021   05:20:47		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:20:47		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:20:47		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:20:49		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:20:49		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:20:50		Entered the is_null_present method of preprocessor class
+07-01-2021   05:20:50		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:20:52		Entered the imputer method of KNN
+07-01-2021   05:20:53		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:20:55		Entered the elbow_plot method !!! 
+07-01-2021   05:20:59		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:21:01		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:21:01		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:21:01		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:21:29		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:23:12		Error occured while choosing the best params for KNN classifier :: 'Model_Finder' object has no attribute 'knn'
+07-01-2021   05:24:45		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:24:45		Data Loaded successfully!!!
+07-01-2021   05:24:46		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:24:46		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:24:46		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:24:49		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:24:49		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:24:50		Entered the is_null_present method of preprocessor class
+07-01-2021   05:24:50		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:24:52		Entered the imputer method of KNN
+07-01-2021   05:24:52		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:24:54		Entered the elbow_plot method !!! 
+07-01-2021   05:24:59		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:25:02		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:25:02		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:25:02		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:25:10		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:25:47		Error occured while choosing the best params for KNN classifier :: 'Model_Finder' object has no attribute 'xgb'
+07-01-2021   05:26:08		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:26:08		Data Loaded successfully!!!
+07-01-2021   05:26:09		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:26:09		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:26:09		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:26:11		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:26:11		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:26:12		Entered the is_null_present method of preprocessor class
+07-01-2021   05:26:12		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:26:13		Entered the imputer method of KNN
+07-01-2021   05:26:14		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:26:16		Entered the elbow_plot method !!! 
+07-01-2021   05:26:20		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:26:26		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:26:26		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:26:26		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:26:33		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:26:52		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 2} Now Exiting the KNN method
+07-01-2021   05:30:35		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:30:36		Data Loaded successfully!!!
+07-01-2021   05:30:36		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:30:36		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:30:37		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:30:38		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:30:38		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:30:39		Entered the is_null_present method of preprocessor class
+07-01-2021   05:30:39		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:30:40		Entered the imputer method of KNN
+07-01-2021   05:30:41		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:30:42		Entered the elbow_plot method !!! 
+07-01-2021   05:30:46		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:30:47		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:30:47		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:30:47		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:30:52		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:31:17		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 2} Now Exiting the KNN method
+07-01-2021   05:33:59		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:33:59		Data Loaded successfully!!!
+07-01-2021   05:34:00		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:34:00		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:34:00		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:34:03		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:34:03		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:34:03		Entered the is_null_present method of preprocessor class
+07-01-2021   05:34:03		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:34:04		Entered the imputer method of KNN
+07-01-2021   05:34:05		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:34:06		Entered the elbow_plot method !!! 
+07-01-2021   05:34:10		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:34:11		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:34:11		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:34:11		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:34:18		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:34:47		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 2} Now Exiting the KNN method
+07-01-2021   05:44:29		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:44:29		Data Loaded successfully!!!
+07-01-2021   05:44:30		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:44:30		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:44:30		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:44:32		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:44:32		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:44:33		Entered the is_null_present method of preprocessor class
+07-01-2021   05:44:33		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:44:34		Entered the imputer method of KNN
+07-01-2021   05:44:35		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:44:36		Entered the elbow_plot method !!! 
+07-01-2021   05:44:40		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:44:42		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:44:42		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:44:42		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:44:46		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:45:07		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 2} Now Exiting the KNN method
+07-01-2021   05:50:47		Entered the get_data() method of Data_Getter class 
+07-01-2021   05:50:47		Data Loaded successfully!!!
+07-01-2021   05:50:48		Entered the remove column method of the Preprocessor class---->
+07-01-2021   05:50:48		Sucessfully removed the columns and returned the useful_data
+07-01-2021   05:50:48		Starting to replace the invalid ? values with np.NaN
+07-01-2021   05:50:50		Entered the separate_label_feature method of preprocessor class
+07-01-2021   05:50:50		Exit the separate_label_feature method of preprocessor class
+07-01-2021   05:50:50		Entered the is_null_present method of preprocessor class
+07-01-2021   05:50:50		Found the null values and stored a csv file as null_values.csv now exiting the is_null_present method
+07-01-2021   05:50:51		Entered the imputer method of KNN
+07-01-2021   05:50:52		Successfully imputed the NaN values now exiting the method!!
+07-01-2021   05:50:54		Entered the elbow_plot method !!! 
+07-01-2021   05:50:58		The optimal number of clusters got from KneeLocator is : 3 . Now Exiting the elbow plot method
+07-01-2021   05:50:59		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:50:59		Model saved successfully in the models folder name : KMeans
+07-01-2021   05:50:59		Successfully created 3  Clusters . Exited the create_cluster method of KMeansClustering class
+07-01-2021   05:51:05		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:51:26		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 2} Now Exiting the KNN method
+07-01-2021   05:51:34		Entered the get_best_params_for_RandomForest method!!!
+07-01-2021   05:51:42		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 3, 'max_features': 'log2', 'n_estimators': 20} Now Exiting the Random Forest method
+07-01-2021   05:51:54		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:51:54		Model saved successfully in the models folder name : KNN1
+07-01-2021   05:51:04		Entered the get_best_model method!!!
+07-01-2021   05:51:31		The ROC AUC Score for KNN is : 0.9874044753904448 
+07-01-2021   05:51:45		The ROC AUC Score for RANDOM FOREST is : 0.8705139750677228 
+07-01-2021   05:52:03		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:52:21		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 1} Now Exiting the KNN method
+07-01-2021   05:52:24		Entered the get_best_params_for_RandomForest method!!!
+07-01-2021   05:52:28		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 20} Now Exiting the Random Forest method
+07-01-2021   05:52:30		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:52:30		Model saved successfully in the models folder name : KNN2
+07-01-2021   05:52:00		Entered the get_best_model method!!!
+07-01-2021   05:52:23		The ROC AUC Score for KNN is : 0.964914326283033 
+07-01-2021   05:52:30		The ROC AUC Score for RANDOM FOREST is : 0.960276983634454 
+07-01-2021   05:52:34		Entered the get_best_params_for_KNN method!!!
+07-01-2021   05:52:44		The Best params of KNN are{'algorithm': 'ball_tree', 'leaf_size': 5, 'n_neighbors': 3, 'p': 1} Now Exiting the KNN method
+07-01-2021   05:52:46		Entered the get_best_params_for_RandomForest method!!!
+07-01-2021   05:52:53		The Best params of Random Forest are{'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10} Now Exiting the Random Forest method
+07-01-2021   05:52:55		Entered the save_model method of the File_Operation class now saving the model....
+07-01-2021   05:52:55		Model saved successfully in the models folder name : RandomForest0
+07-01-2021   05:52:33		Entered the get_best_model method!!!
+07-01-2021   05:52:45		The ROC AUC Score for KNN is : 0.8883061383061382 
+07-01-2021   05:52:54		The ROC AUC Score for RANDOM FOREST is : 0.988782407072108 
+07-01-2021   05:50:43		Start of the Training Model !!!!!
+07-01-2021   05:52:56		Successful End of Training :)
+07-01-2021   21:42:02		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:42:02		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:42:25		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:42:25		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:42:50		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:42:50		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:43:22		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:43:22		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:45:49		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:45:49		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:46:47		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:46:47		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:53:36		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:53:36		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   21:58:22		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   21:58:22		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:06:37		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:06:37		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:07:35		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:07:35		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:16:33		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:16:33		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:16:55		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:16:55		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:36:15		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:36:15		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   22:36:47		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   22:36:47		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   23:04:08		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   23:04:08		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   23:05:01		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   23:05:01		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   23:24:31		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   23:24:31		Exited the find_correct_model_method after finding the correct model---->
+07-01-2021   23:25:10		Entered the find_correct_model_method for finding the correct model!!!
+07-01-2021   23:25:10		Exited the find_correct_model_method after finding the correct model---->

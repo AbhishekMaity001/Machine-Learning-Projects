@@ -68,10 +68,10 @@ class Raw_Data_Validation:
                 This method returns the criteria for the regex validation
                 returns ---> regex
         """
-        regex = "['wafer']+['\_'']+[\d_]+[\d]+\.csv"
+        regex = "hypothyroid_{1}\d{7}_\d{13}.csv"
         return regex
 
-    def validationFileName(self,regex,LengthOfDateStampInFile, LengthOfTimeStampInFile):
+    def validationFileName(self,regex):
         """"
                     This method will validate the training raw csv files ... with the valid name of the files as per given in the schema as
                     agreed with the client.
@@ -86,30 +86,19 @@ class Raw_Data_Validation:
             file = open('Training_logs/nameValidationLog.txt','a+')
             print('entered the validation file name method')
             for filename in onlyfiles:
-                if re.match(regex,filename):
-                    splitbyDot = re.split('.csv',filename)
-                    splitbyDot = (re.split('_',splitbyDot[0]))
-                    if len(splitbyDot[1]) == LengthOfDateStampInFile :
-                        if len(splitbyDot[2]) == LengthOfTimeStampInFile :
-                            shutil.copy('Training_Batch_Files/'+filename,'Training_Raw_Files_Validated/Good_Raw')
-                            self.log_writer.log(file,'Valid File Name! Files moved to Good_Raw Data Folder %s' % filename)
-                        else :
-                            shutil.copy('Training_Batch_Files/'+filename,'Training_Raw_Files_Validated/Bad_Raw')
-                            self.log_writer.log(file, 'InValid File Name! Files moved to Bad_Raw Data Folder %s' % filename)
-                    else :
-                        shutil.copy('Training_Batch_Files/' + filename, 'Training_Raw_Files_Validated/Bad_Raw')
-                        self.log_writer.log(file, 'InValid File Name! Files moved to Bad_Raw Data Folder %s' % filename)
-
+                if(re.match(regex,filename)) :
+                    shutil.copy('Training_Batch_Files/' + filename, 'Training_Raw_Files_Validated/Good_Raw')
+                    self.log_writer.log(file, 'Valid File Name! Files moved to Good_Raw Data Folder %s' % filename)
                 else :
                     shutil.copy('Training_Batch_Files/' + filename, 'Training_Raw_Files_Validated/Bad_Raw')
-                    self.log_writer.log(file, 'InValid File Name! Files moved to Bad_Raw Data Folder %s' % filename)
+                    self.log_writer.log(file, 'Valid File Name! Files moved to Good_Raw Data Folder %s' % filename)
 
             file.close()
             print('exited the validation file name method')
 
         except Exception as e :
             file = open('Training_logs/nameValidationLog.txt', 'a+')
-            self.log_writer.log(file,'Error Occurred While validating the File Name :: %s',str(e))
+            self.log_writer.log(file,'Error Occurred While validating the File Name :: %s'%str(e))
             file.close()
             raise e
 
@@ -151,16 +140,13 @@ class Raw_Data_Validation:
             self.log_writer.log(file,'Missing values in whole column started !!')
             for filename in listdir('Training_Raw_Files_Validated/Good_Raw'):
                 csv = pd.read_csv('Training_Raw_Files_Validated/Good_Raw/'+filename)
-                count = 0
+
                 for columns in csv:
                     if (len(csv[columns])-csv[columns].count()) == len(csv[columns]) :
-                        count+=1
+
                         shutil.move('Training_Raw_Files_Validated/Good_Raw/'+filename,'Training_Raw_Files_Validated/Bad_Raw')
                         self.log_writer.log(file,"Column was having all missing values!!! Files moved to Bad Raw Folder :: %s"%filename)
                         break
-                if count==0:
-                    csv.rename(columns={'Unnamed: 0':'Wafer'},inplace=True)
-                    csv.to_csv('Training_Raw_Files_Validated/Good_Raw/'+filename,index=None,header=True)
             print('Exited the try of validate missing values in whole column method')
 
         except OSError:

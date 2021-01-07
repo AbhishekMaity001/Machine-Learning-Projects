@@ -1,0 +1,11 @@
+07-01-2021   00:48:37		Database closed successfully!!!----> Training
+07-01-2021   00:55:35		Database connected sucessfully!!---> Training
+07-01-2021   00:55:37		Database closed successfully!!!----> Training
+07-01-2021   00:55:50		Database connected sucessfully!!---> Training
+07-01-2021   00:58:25		Database connected sucessfully!!---> Training
+07-01-2021   00:58:28		Database closed successfully!!!----> Training
+07-01-2021   00:58:49		Database connected sucessfully!!---> Training
+07-01-2021   01:05:59		Database connected sucessfully!!---> Training
+07-01-2021   01:06:02		Database closed successfully!!!----> Training
+07-01-2021   01:06:06		Database connected sucessfully!!---> Training
+07-01-2021   01:16:23		Database connected sucessfully!!---> Training

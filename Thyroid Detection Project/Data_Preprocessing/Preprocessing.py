@@ -1,7 +1,12 @@
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.impute import KNNImputer
+from sklearn.preprocessing import LabelEncoder
+from imblearn.over_sampling import RandomOverSampler
+
 from application_logging.logger import App_logger
+
 
 
 
@@ -57,7 +62,7 @@ class Preprocessor:
             file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
             self.log_writer.log(file_object, 'Entered the is_null_present method of preprocessor class')
             self.null_present = False
-            self.null_counts = data.isnull().sum()
+            self.null_counts = data.isna().sum()
             for i in self.null_counts :
                 if i>0:
                     self.null_present = True
@@ -88,9 +93,9 @@ class Preprocessor:
         self.data = data
         self.log_writer.log(file_object,"Entered the imputer method of KNN")
         try :
-            imputer = KNNImputer(n_neighbors=3,weights='uniform',missing_values=np.nan)
+            imputer = KNNImputer(n_neighbors=3, weights='uniform', missing_values=np.nan)
             self.new_array = imputer.fit_transform(self.data)
-            self.new_data = pd.DataFrame(data=self.new_array,columns=self.data.columns)
+            self.new_data = pd.DataFrame(data=self.new_array, columns=self.data.columns)
             self.log_writer.log(file_object,"Successfully imputed the NaN values now exiting the method!!")
             file_object.close()
             print('exiting imputer KNN')
@@ -99,6 +104,7 @@ class Preprocessor:
         except Exception as e:
             file_object = open('Training_logs/Model_Training_Log.txt', 'a+')
             self.log_writer.log(file_object,"Error while imputing the missing values :: %s"%str(e))
+            file_object.close()
             raise e
 
     def get_columns_with_zero_std_dev(self,data):
@@ -121,6 +127,47 @@ class Preprocessor:
             file_object.close()
             raise e
 
+    def replaceInvalidValuesWithNaN(self,data):
+
+        file = open('Training_logs/Model_Training_Log.txt','a+')
+        try :
+            self.log_writer.log(file,"Starting to replace the invalid ? values with np.NaN")
+            for col in data.columns:
+                cnt = data[col][data[col] == '?'].count()
+                if cnt!=0:
+                    data[col] = data[col].replace('?',np.nan)
+            file.close()
+            return data
+        except Exception as e:
+            self.log_writer.log(file,"Error Occurred while replacing the ? to np.NaN :: %s"%str(e))
+            file.close()
+            raise e
+
+    def encodeCategoricaldata(self,data):
+
+        data['sex'] = data['sex'].map({'F':0, 'M':1})
+
+        for col in data.columns :
+            if len(data[col].unique()) == 2:
+                data[col] = data[col].map({'f':0,'t':1})
+
+        data = pd.get_dummies(data,columns=['referral_source'])
+        labelencoder = LabelEncoder().fit(data['Class'])
+        data['Class']=labelencoder.transform(data['Class'])
+
+        # lets save the encoder file so at the predication time we can again reuse it further
+        with open('EncoderPickle/enc.pickle','wb') as file:
+            pickle.dump(labelencoder,file)
+
+        return data
+
+    def handleImbalanceData(self,X,Y):
+
+        print('inside the imbalanced data method')
+        sampler = RandomOverSampler()
+        sampled_x, sampled_y = sampler.fit_sample(X,Y)
+
+        return sampled_x , sampled_y
 
 
 
